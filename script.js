@@ -22,7 +22,7 @@ const enterCommand = (event) => {
   promtElement.getElementsByClassName('promtCloneContent')[0].appendChild(selectCommandBlock(event.target.value));
   terminal.appendChild(promtElement);
   promtInput.value = '';
-  promtInput.scrollIntoView({block: 'start'});
+  promtInput.scrollIntoView({ block: 'start' });
 }
 
 
